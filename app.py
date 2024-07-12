@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
         self.startGlobalHotKeysListener()
         
     def initUI(self):
-        self.setWindowTitle("バターふりまん v1.0")
+        self.setWindowTitle("牛乳ふりまん v1.0")
         self.setWindowIcon(QIcon("./files/images/mc-logo.jpg"))
         self.setFixedSize(300,75)
         self.setWindowFlags(Qt.WindowStaysOnTopHint)
